@@ -1,0 +1,23 @@
+{
+  "name": "charcord",
+  "version": "1.0.0",
+  "description": "Realtime Chat App With Rooms",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "engines": {
+    "node": "14.15.4"
+  },
+  "author": "Bugra Ates",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^3.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
